@@ -56,7 +56,7 @@ nav {
     text-decoration: underline;
     cursor: pointer;
 }
-.blogTitle a{
+.blogTitle span{
     display: none;
 }
 .blogTextContent{
