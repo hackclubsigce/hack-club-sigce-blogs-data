@@ -1,0 +1,170 @@
+body{
+    outline: none;
+    overflow-y: scroll;
+    height: max-content;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+}
+nav {
+    outline: none ;
+}
+.navbar-toggler{
+    border: none;
+}
+.nav-item{
+    text-align: center;
+}
+.card{
+    border-width: 2px;
+}
+.card-header{
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0);
+}
+.indexBody{
+    height: 100vh;
+}
+#allblogs{
+    height: 100vh;
+    padding: 20px 10%;
+}
+.blogPost{
+    border: none;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#allblogs .blogPost .blogImage img{
+    height: 100px;
+    width: 100px;
+    /* position: relative;
+    left: -60%; */
+}
+.blogTitle{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+.blogTitle:hover{
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.blogTitle span{
+    display: none;
+}
+.blogTextContent{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.blogDesc{
+    color: grey;
+}
+.readMore{
+    border: 1px solid #333;
+    background-color: transparent;
+    transition: 0.3s ease;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.readMore:hover{
+    background-color: #333;
+    color: white;
+}
+#blogHeading{
+    text-align: center;
+}
+#blogs{
+    padding-top: 20px;
+}
+.closeWindow{
+    position: absolute;
+    top: 13%;
+    right: 5%;
+    padding: 20px;
+    cursor: pointer;
+}
+pre{
+    background-color: rgb(21, 25, 32);
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+.socialLinks{
+    
+    width: 70%;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+.socialLinks a{
+    color: #333;
+    text-decoration: none;
+}
+.socialLinks p{
+    font-size: 14px;
+}
+.socialContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comments h2{
+    margin-bottom: 40px;
+}
+.user{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.user span{
+    display: flex;
+}
+.user i{
+    cursor: pointer;
+    padding: 10px;
+}
+#comments{
+    display: none;
+}
+.timeDisplay{
+    font-size: 12px;
+    font-style: italic;
+}
+#review{
+    display: none;
+}
+#loader{
+    display: none;
+}
+.modal-footer{
+    background-color: white;
+}
+.nav-link{
+    color: #333 !important;
+}
+pre::-webkit-scrollbar{
+    width: 0px;
+}
+.italic{
+    font-style: italic;
+}
+a{
+    transition: 0.3s;
+}
+.socialHover:hover{
+    color: rgb(99, 99, 99);
+}
