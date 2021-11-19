@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hack Club SIGCE - BLOGS</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-  <link href="/css/styles.css" rel="stylesheet" />
-  <link href="/css/index.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/index.css" rel="stylesheet" />
   <link rel="stylesheet" href="/prism/prism.css">
   <script src="/prism/prism.js"></script>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
@@ -17,7 +17,7 @@
     crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="homeRender()">
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">Hack Club SIGCE</a>
@@ -63,9 +63,9 @@
   <div id="allblogs">
     <!-- <h2 id="blogHeading">Hack Club SIGCE Blogs</h2> -->
     <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search Blogs..." aria-label="Search" id="searchInput" onkeyup="search()">
+      <input class="form-control me-2" id="searchBlogs" type="search" placeholder="Search Blogs..." aria-label="Search">
     </form>
-    <ul id="blogs"></ul>
+    <div id="blogs"></div>
   </div>
 
   <div id="mainBlog"></div>
@@ -176,4 +176,5 @@
   <script src="/js/scripts.js"></script>
   <script src="/firebase/blogsubmit.js"></script>
 </body>
+
 </html>

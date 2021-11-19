@@ -61,6 +61,21 @@
             "date": "November 09, 2021",
             "linkedin": "https://www.linkedin.com/in/bhavik-oza-678118134",
             "github": "https://github.com/Bhaviktutorials"
+        },
+        {
+            "id": 5,
+            "author": "Murtaza Fatakdawala",
+            "firstName": "Murtaza",
+            "LastName": "Fatakdawala",
+            "shortTitle": "IS ELON MUSK A “CRYPTO WIZARD” ?",
+            "category": "General",
+            "img": "/assets/images/General/id5/id5.png",
+            "shortDesc": "Is Elon Musk A “CRYPTO WIZARD” ?",
+            "blogContent": "<p class='fs-5 mb-4'>I am quite sure we all know who Mr. Elon Musk is! But for the record Elon Reeve Musk FRS is an entrepreneur and business magnate. He is the founder, CEO, and Chief Engineer at SpaceX; early-stage investor, CEO, and Product Architect of Tesla, Inc.; founder of The Boring Company; and co-founder of Neuralink and OpenAI.</p><p class='fs-5 mb-4'>Let us travel back a year behind, if someone says Elon Musk the first thing that came to our mind was Tesla or SpaceX. But now if we hear the name Elon Musk the first thing that comes to our mind is Bitcoin or Cryptocurrency. That is what Mr. Musk has changed in past 1 year. What is Cryptocurrency though? Well A cryptocurrency, crypto-currency, or crypto is a collection of binary data which is designed to work as a medium of exchange. Individual coin ownership records are stored in a ledger, which is a computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership.</p><h2 class='fw-bolder mb-4 mt-5'>Why is Elon Musk a Crypto Wizard?</h2><p class='fs-5 mb-4'>Well apart from building spaceships and sending cars into space or creating worlds most advance electric vehicles. Elon Musk has a reputation of playing with the crypto market. Every time Mr. Musk has tweeted something regarding crypto currencies the crypto market has reacted and changed drastically. But what actually happened ?</p><p class='fs-5 mb-4'>On 4th June 2021 Mr. Musk sitting on his expensive sofa just tweeted a breakup heart emoji with #BITCOIN.</p><p class='fs-5 mb-4'>But what can a tweet really do?</p><p class='fs-5 mb-4'>Well, the value of Bitcoin sank from $64,000 to $30,000 in 1 night. Yes, that’s a steep fall especially for heavy bitcoin investors.</p><img class='img-fluid rounded' src='/assets/images/General/id5/id5.1.png'/><p class='fs-5 mb-4'>Along with Bitcoin even Ethereum and Dogecoin fell.</p><p class='fs-5 mb-4'>Well, this was not the first time where such a thing happened. In May Mr. Musk said that Tesla will not be accepting any payments in Bitcoins due to heavy energy usage. Due to this the whole cryptocurrency market fell in one day.</p><p class='fs-5 mb-4'>Elon Musk tweeted that he owns only 3 crypto currencies I.E. </p><p class='fs-5 mb-4'>On 25th October 2021.</p><ol class='fs-5 mb-4'> <li>Bitcoin</li><li>Ethereum</li><li>Dogecoin</li></ol><p class='fs-5 mb-4'>This is the sole reason these 3 are the highest performing cryptos. </p><h2 class='fw-bolder mb-4 mt-5'>But why can Elon Musk control the whole Crypto market ?</h2><p class='fs-5 mb-4'>The main reason is he owns two largest powerhouses that accepts payments in the form of cryptocurrencies. It is also because of his social media influence and impact of his opinion on crypto markets.</p><p class='fs-5 mb-4'>So make sure you check twitter before investing in crypto market next time !</p>",
+            "tags": ["Crypto"],
+            "date": "November 15, 2021",
+            "linkedin": "https://www.linkedin.com/in/murtaza-fatakdawala-a006651ab/",
+            "github": "https://github.com/Murtaza11092"
         }
     ]
 }

@@ -8,10 +8,6 @@
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <link href="/css/styles.css" rel="stylesheet" />
   <link href="/css/index.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/prism/prism.css">
-  <script src="/prism/prism.js"></script>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.3.1/styles/github-dark.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9362505928898272"
     crossorigin="anonymous"></script>
@@ -21,12 +17,14 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">Hack Club SIGCE</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" style="text-align: center !important; width: 100%;" id="offcanvasNavbarLabel">HackClubSIGCE</h5>
+          <h5 class="offcanvas-title" style="text-align: center !important; width: 100%;" id="offcanvasNavbarLabel">
+            HackClubSIGCE</h5>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -59,16 +57,12 @@
       </div>
     </div>
   </nav>
-
   <div id="allblogs">
-    <!-- <h2 id="blogHeading">Hack Club SIGCE Blogs</h2> -->
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search Blogs..." aria-label="Search" id="searchInput" onkeyup="search()">
-    </form>
-    <ul id="blogs"></ul>
+    <h2 id="blogHeading">Hack Club SIGCE Blogs</h2>
+    <div id="blogs"></div>
   </div>
-
-  <div id="mainBlog"></div>
+  <div id="mainBlog">
+  </div>
   <div id="comments" class="commentsSec container">
     <h2 class="mb-5">Comments </h2>
     <div class="addComment">
@@ -85,57 +79,57 @@
 
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Submit A Blog</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form id="form">
-                    <div class="mb-3">
-                        <label for="blogTitle" class="col-form-label">Blog Title : </label>
-                        <input type="text" class="form-control" id="blogTitle">
-                    </div>
-                    <div class="mb-3">
-                        <label for="blogShortDesc" class="col-form-label">Blog Short Desc : </label>
-                        <input type="text" class="form-control" id="blogShortDesc">
-                    </div>
-                    <div class="mb-3">
-                        <label for="blogDomain" class="col-form-label">Blog Domain : </label>
-                        <div class="input-group mb-3">
-                            <select class="form-select" id="blogDomain">
-                                <option selected>Choose...</option>
-                                <option value="General">General</option>
-                                <option value="Web-Dev">Web-Dev</option>
-                                <option value="Android-Dev">Android-Dev</option>
-                                <option value="AI-ML">AI-ML</option>
-                                <option value="Open-Source">Open-Source</option>
-                            </select>
-                            <label class="input-group-text" for="blogDomain">Domain</label>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="formFile" class="form-label">Document File Link : </label>
-                        <input type="text" class="form-control" id="formFile">
-                    </div>
-                </form>
-                <div class="review" id="review">
-                    Your Blog Is Being Reviewed!
-                    You Will Recieve An Email After It Is Being Accepted!
-                </div>
-            </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Submit A Blog</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button class="btn btn-secondary" style="display: flex;
+        <div class="modal-body">
+          <form id="form">
+            <div class="mb-3">
+              <label for="blogTitle" class="col-form-label">Blog Title : </label>
+              <input type="text" class="form-control" id="blogTitle">
+            </div>
+            <div class="mb-3">
+              <label for="blogShortDesc" class="col-form-label">Blog Short Desc : </label>
+              <input type="text" class="form-control" id="blogShortDesc">
+            </div>
+            <div class="mb-3">
+              <label for="blogDomain" class="col-form-label">Blog Domain : </label>
+              <div class="input-group mb-3">
+                <select class="form-select" id="blogDomain">
+                  <option selected>Choose...</option>
+                  <option value="General">General</option>
+                  <option value="Web-Dev">Web-Dev</option>
+                  <option value="Android-Dev">Android-Dev</option>
+                  <option value="AI-ML">AI-ML</option>
+                  <option value="Open-Source">Open-Source</option>
+                </select>
+                <label class="input-group-text" for="blogDomain">Domain</label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Document File Link : </label>
+              <input type="text" class="form-control" id="formFile">
+            </div>
+          </form>
+          <div class="review" id="review">
+            Your Blog Is Being Reviewed!
+            You Will Recieve An Email After It Is Being Accepted!
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button class="btn btn-secondary" style="display: flex;
                 justify-content: center;
                 align-items: center;" type="button" onclick="submitBlog()">
-                <span id="loader" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                <span id="btnText">Submit For Review</span>
-            </button>
-        </div>
+          <span id="loader" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          <span id="btnText">Submit For Review</span>
+        </button>
+      </div>
     </div>
-</div>
+  </div>
 
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -155,8 +149,6 @@
       </div>
     </div>
   </div>
-
-
   <footer class="py-3 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">
@@ -176,4 +168,5 @@
   <script src="/js/scripts.js"></script>
   <script src="/firebase/blogsubmit.js"></script>
 </body>
+
 </html>

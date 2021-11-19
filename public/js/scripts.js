@@ -15,7 +15,7 @@ async function relatedPostRender(id, category) {
     for (let i = 0; i < postStore.length; i++) {
       relatedPostContainer.innerHTML += ` 
           <div class="card mb-4">
-          <div id="${postStore[i].id}"  name="${postStore[i].category}" onclick="mainBlog(this.id, this.name)" class="card-header text-center">${postStore[i].shortTitle}</div>
+          <div id="${postStore[i].id}" name="${postStore[i].category}" onclick="mainBlog(this.id, this.name)" class="card-header text-center">${postStore[i].shortTitle}</div>
           <div class="card-body" style="padding: 10px 30px;">
           ${postStore[i].shortDesc}
           </div>
@@ -54,17 +54,17 @@ async function blogListRender() {
   blogs.innerHTML = "";
   for (let i = 0; i < postJson.items.length; i++) {
     if (postJson.items[i].category == category) {
-      blogs.innerHTML += `<li class="blogPost">
+      blogs.innerHTML += `<div class="blogPost">
         <div class="blogTextContent">
         <div class="titleTags" >
-        <a class="blogTitle" name="${postJson.items[i].tags[0]}">${postJson.items[i].shortTitle}</a>
+        <div class="blogTitle">${postJson.items[i].shortTitle}</div>
         </div>
         <div class="blogDesc">${postJson.items[i].shortDesc}</div>
         </div>
         <div class="readMoreBtn">
         <button id="${postJson.items[i].id}" name="${postJson.items[i].category}" onclick="mainBlog(this.id, this.name)" class="readMore">Read More</button>
         </div>
-        </li>`
+        </div>`
     }
   }
   if (blogs.innerHTML.length == 0 && page != "/") {
@@ -77,10 +77,10 @@ async function homeRender() {
   let postJson = await postObj.json();
   let blogs = document.getElementById('blogs');
   for (let i = 0; i < postJson.items.length; i++) {
-    blogs.innerHTML += `<li class="blogPost">
+    blogs.innerHTML += `<li class="blogPost"}">
         <div class="blogTextContent">
           <div class="titleTags" >
-            <a class="blogTitle">${postJson.items[i].shortTitle} <span>${postJson.items[i].tags[0]}</span></a>
+            <div class="blogTitle">${postJson.items[i].shortTitle}<span>${postJson.items[0].tags[0]}</span></div>
           </div>
           <div class="blogDesc">${postJson.items[i].shortDesc}</div>
         </div>
@@ -208,21 +208,20 @@ var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
   backdrop: false
 })
 
+
 function search() {
- 
   var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("searchInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("blogs");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.innerText || a.children[0].innerText;
-        console.log(a)
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
+  input = document.getElementById('searchBlogs');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("blogs");
+  li = ul.getElementsByTagName('li');
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.children[0].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
     }
+  }
 }
