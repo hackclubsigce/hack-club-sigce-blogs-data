@@ -50,20 +50,14 @@
               <a class="nav-link" href="/Open-Source/">Open Source</a>
             </li>
           </ul>
-          <!-- <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form> -->
         </div>
-        <!-- <div data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-center p-2 btn btn-secondary">Post A Blog</div> -->
       </div>
     </div>
   </nav>
 
   <div id="allblogs">
-    <!-- <h2 id="blogHeading">Hack Club SIGCE Blogs</h2> -->
     <form class="d-flex">
-      <input class="form-control me-2" id="searchBlogs" type="search" placeholder="Search Blogs..." aria-label="Search">
+      <input class="form-control me-2" id="searchBlogs" type="search" placeholder="Search Blogs..." onkeyup="search()" aria-label="Search">
     </form>
     <div id="blogs"></div>
   </div>
@@ -155,8 +149,7 @@
       </div>
     </div>
   </div>
-
-
+  
   <footer class="py-3 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">

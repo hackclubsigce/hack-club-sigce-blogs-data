@@ -165,3 +165,7 @@ a{
 .socialHover:hover{
     color: rgb(99, 99, 99);
 }
+.blogTitle{
+    color: #333;
+    text-decoration: none;
+}
