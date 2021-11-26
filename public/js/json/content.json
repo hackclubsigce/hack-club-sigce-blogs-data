@@ -76,6 +76,21 @@
             "date": "November 15, 2021",
             "linkedin": "https://www.linkedin.com/in/murtaza-fatakdawala-a006651ab/",
             "github": "https://github.com/Murtaza11092"
+        },
+        {
+            "id": 6,
+            "author": "Piyush Dixit",
+            "firstName": "Piyush",
+            "LastName": "Dixit",
+            "shortTitle": "Front-end Web Development",
+            "category": "Web-Dev",
+            "img": "/assets/images/Web-Dev/id6/id6.jpg",
+            "shortDesc": "A detailed briefing & working of Front-end Web dev domain.",
+            "blogContent": "",
+            "tags": ["Web Development"],
+            "date": "November 26, 2021",
+            "linkedin": "https://www.linkedin.com/in/piyush-dixit-327055218",
+            "github": "https://github.com/PiyushDixit7"
         }
     ]
 }
