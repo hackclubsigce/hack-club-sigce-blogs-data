@@ -76,21 +76,6 @@
             "date": "November 15, 2021",
             "linkedin": "https://www.linkedin.com/in/murtaza-fatakdawala-a006651ab/",
             "github": "https://github.com/Murtaza11092"
-        },
-        {
-            "id": 6,
-            "author": "Piyush Dixit",
-            "firstName": "Piyush",
-            "LastName": "Dixit",
-            "shortTitle": "Introduction To Front-End Of Web-Development",
-            "category": "Web-Dev",
-            "img": "/assets/images/General/id5/id5.png",
-            "shortDesc": "Introduction To Front-End Of Web-Development",
-            "blogContent": "<h2 class='fw-bolder mb-4 mt-5'>HTML : </h2><h2 class='fw-bolder mb-4 mt-5'>What Is HTML?</h2><p class='fs-5 mb-4'>HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on. For example, take the following line of content :</p><img class='img-fluid rounded' src='/assets/images/Web-Dev/id6/id6.1.jpg' alt=''>",
-            "tags": ["Web-Development", "Frontend"],
-            "date": "November 26, 2021",
-            "linkedin": "https://www.linkedin.com/in/piyush-dixit-327055218",
-            "github": "https://github.com/PiyushDixit7"
         }
     ]
 }
