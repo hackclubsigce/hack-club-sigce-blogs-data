@@ -85,7 +85,7 @@ async function homeRender() {
           <div class="blogDesc">${postJson.items[i].shortDesc}</div>
         </div>
         <div class="readMoreBtn">
-          <button id="${postJson.items[i].id}" name="${postJson.items[i].category}" onclick="mainBlog(this.id, this.name)" class="readMore">Read More</button>
+          <button id="${postJson.items[i].id}" name="${postJson.items[i].category}" onclick="mainBlog(this.id, this.name)" class="readMore">Read</button>
         </div>
       </li>`
   }
