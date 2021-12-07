@@ -169,3 +169,10 @@ a{
     color: #333;
     text-decoration: none;
 }
+#liveAlertPlaceholder{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100%;
+}

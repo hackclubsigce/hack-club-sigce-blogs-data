@@ -9,20 +9,24 @@ function postComment() {
     if (user == null) {
         myModal.show();
     } else {
-        db.collection("users").doc("comments").collection(itemId).doc().set({
-            name: user.displayName,
-            photoURL: user.photoURL,
-            comment: comment.value,
-            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-            time: getTime()
-        })
-            .then(() => {
-                comment.innerHTML = "";
-                comment.value = "";
+        if (comment.value.length == 0) {
+            blankAlert('You Cannot Post An Empty Comment', 'danger')
+        } else {
+            db.collection("users").doc("comments").collection(itemId).doc().set({
+                name: user.displayName,
+                photoURL: user.photoURL,
+                comment: comment.value,
+                timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                time: getTime()
             })
-            .catch((error) => {
-                console.error("Error writing document: ", error);
-            });
+                .then(() => {
+                    comment.innerHTML = "";
+                    comment.value = "";
+                })
+                .catch((error) => {
+                    console.error("Error writing document: ", error);
+                });
+        }
     }
 
 }
@@ -37,12 +41,12 @@ function getTime() {
 try {
     db.collection("users").doc("comments").collection(getId()).orderBy("timestamp");
     db.collection("users").doc("comments").collection(getId())
-    .onSnapshot((querySnapshot) => {
-        commentBody.innerHTML = "";
-        querySnapshot.forEach((doc) => {
-            commentDisplay(doc.data(), doc.id);
+        .onSnapshot((querySnapshot) => {
+            commentBody.innerHTML = "";
+            querySnapshot.forEach((doc) => {
+                commentDisplay(doc.data(), doc.id);
+            });
         });
-    });
 } catch (error) {
     error.message;
 }
@@ -90,9 +94,9 @@ function deleteComment(id, name) {
             console.error("Error removing document: ", error);
         });
     } else {
-       alert("You Cannot Delete The Comment!"); 
+        alert("You Cannot Delete The Comment!");
     }
-    
+
 }
 const nth = function (d) {
     if (d > 3 && d < 21) return 'th';
@@ -104,4 +108,4 @@ const nth = function (d) {
     }
 }
 
-{/* <i id="${id}" onclick="deleteComment(this.id)" class="fas fa-trash"></i> */}
+{/* <i id="${id}" onclick="deleteComment(this.id)" class="fas fa-trash"></i> */ }

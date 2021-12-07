@@ -225,3 +225,13 @@ function search() {
     }
   }
 }
+var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+function blankAlert() {
+  alertPlaceholder.innerHTML = "";
+  var wrapper = document.createElement('div')
+  wrapper.innerHTML = `<div class="alert alert-warning alert-dismissible" role="alert"><strong>Warning! </strong> You Cannot Add a Blank Comment<button type="button" id="dismissAlert" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>`
+  alertPlaceholder.append(wrapper);
+  setTimeout(() => {
+    document.getElementById('dismissAlert').click();
+  }, 3000);
+}
