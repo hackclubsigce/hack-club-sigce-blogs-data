@@ -143,6 +143,23 @@
             "date": "December 2, 2021",
             "linkedin": "https://www.linkedin.com/in/dikshita-padte-665794209",
             "github": "https://github.com/dikshita-1905/"
+        },
+        {
+            "id": 9,
+            "author": "Roshani Surwade",
+            "firstName": "Roshani",
+            "LastName": "Surwade",
+            "shortTitle": "SLAM USING MATLAB",
+            "category": "General",
+            "img": "/assets/images/General/id9/id9.jpeg",
+            "shortDesc": "SLAM USING MATLAB",
+            "blogContent": "<h2 class='fw-bolder mb-4 mt-5'>1. What is SLAM?</h2><ul class='fw-bolder mc-4 mt-5'> <li>SLAM (Simultaneous Localization And Mapping) is a method used in autonomous vehicles that lets you build a map and localize your vehicle in that map at the same time. SLAM algorithm allows the vehicle to map out unknown environments</li><li>SLAM is a technique used to build up a map within an unknown or a known environment while at the same time keeping track of the current location</li></ul><img class='img-fluid rounded' src='assets/images/General/id9/id9.1.jpeg' alt=''><ul class='fw-bolder mc-4 mt-5'> <li>The problem has two stages</li><ol>Mapping</ol> <ol>Localization</ol></ul><ul class='fw-bolder mc-4 mt-5'> <li>The Paradox:</li><ol>While building the map, we must know our position</ol> <ol>To determine our position, we need a map!</ol></ul><h2 class='fw-bolder mb-4 mt-5'>2.Why SLAM is a hard problem?</h2><ul class='fw-bolder mc-4 mt-5'> <li>Both SLAM robot path and map is unknown. </li></ul> <img class='img-fluid rounded' src='assets/images/General/id9/id9.2.jpeg' alt=''> <ul class='fw-bolder mc-4 mt-5'> <li>Robot Path error correlates errors in the map</li></ul> <img class='img-fluid rounded' src='assets/images/General/id9/id9.3.jpeg' alt=''> <ul class='fw-bolder mc-4 mt-5'> <li>In the real world, mapping between observations and landmarks is unknown</li><li>Pickingwrongdataassociationscanhave catastrophic consequences</li><li>Pose error correlates data associations</li><li>Small Error accumulate to arbitrary large global errors.</li><li>This is usually irrelevant for navigation.</li><li>While closing the loops, global error does matter.</li></ul> <h2 class='fw-bolder mc-4 mt-5'>3.SLAM Algorithm There are Two algorithm</h2> <ul class='fw-bolder mc-4 mt-5'> <li>Extended Kalman Filter SLAM:</li></ul> <ol> <p>ItsolvestheonlineSLAMproblem.Ituses Linearized Gaussian ProbabilityDistribution Model</p></ol><ul class='fw-bolder mc-4 mt-5'> <li>Fast SLAM:</li></ul><ol><p>It solves the full problem and uses Sampled Particle Filter Distribution Model</p></ol><h2 class='fw-bolder mc-4 mt-5'>Features of SLAM</h2><ul class='fw-bolder mc-4 mt-5'> <li>Landmark extraction</li><li>Data association</li><li>Estimate a vehicles pose</li><li>We have to build this model of the environment map.</li><li>Location and orientation</li><li>State update</li><li>Landmark update</li></ul><h2 class='fw-bolder mc-4 mt-5'>5.SLAM Application</h2><ul class='fw-bolder mc-4 mt-5'> <li>It is used for automated car piloting on off road terrain.</li><li>It is used for visual surveillance systems.</li><li>Indoors</li><li>Undersea</li><li>Space</li><li>Underground</li></ul>",
+            "tags": [
+                "General"
+            ],
+            "date": "December 10, 2021",
+            "linkedin": "https://www.linkedin.com/in/roshani-surwade-164732205",
+            "github": "https://github.com/roshanisurwade617"
         }
     ]
 }
