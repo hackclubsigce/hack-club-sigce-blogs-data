@@ -160,6 +160,23 @@
             "date": "December 10, 2021",
             "linkedin": "https://www.linkedin.com/in/roshani-surwade-164732205",
             "github": "https://github.com/roshanisurwade617"
+        },
+        {
+            "id": 10,
+            "author": "Murtaza Fatakdawala",
+            "firstName": "Murtaza",
+            "LastName": "Fatakdawala",
+            "shortTitle": "",
+            "category": "General",
+            "img": "/assets/images/General/id9/id9.jpeg",
+            "shortDesc": "",
+            "blogContent": "",
+            "tags": [
+                "General"
+            ],
+            "date": "December 10, 2021",
+            "linkedin": "https://www.linkedin.com/in/murtaza-fatakdawala-a006651ab",
+            "github": "https://github.com/Murtaza11092"
         }
     ]
 }
