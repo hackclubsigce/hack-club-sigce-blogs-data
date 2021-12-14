@@ -52,7 +52,7 @@ async function blogListRender() {
   let postObj = await fetch("/js/json/content.json");
   let postJson = await postObj.json();
   blogs.innerHTML = "";
-  for (let i = 0; i < postJson.items.length; i++) {
+  for (let i = postJson.items.length-1; i >= 0; i--) {
     if (postJson.items[i].category == category) {
       blogs.innerHTML += `<li class="blogPost"}">
       <div class="blogTextContent">
@@ -76,7 +76,7 @@ async function homeRender() {
   let postObj = await fetch("/js/json/content.json");
   let postJson = await postObj.json();
   let blogs = document.getElementById('blogs');
-  for (let i = 0; i < postJson.items.length; i++) {
+  for (let i = postJson.items.length-1; i >= 0; i--) {
     blogs.innerHTML += `<li class="blogPost"}">
         <div class="blogTextContent">
           <div class="titleTags" >
