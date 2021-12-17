@@ -212,7 +212,24 @@
             "date": "December 16, 2021",
             "linkedin": "https://www.linkedin.com/in/roshani-surwade-164732205",
             "github": "https://github.com/roshanisurwade617"
+        },
+        {
+            "id": 13,
+            "author": "Murtaza Fatakdawala",
+            "firstName": "Murtaza ",
+            "LastName": "Fatakdawala",
+            "shortTitle": "ALL ABOUT WORDPRESS ",
+            "category": "Web-Dev",
+            "img": "/assets/images/Web-Dev/id13/id13.png",
+            "shortDesc": "ALL ABOUT WORDPRESS ",
+            "blogContent": "<h2 class='fw-bolder mb-4 mt-5 '>ALL ABOUT WORDPRESS</h2><p class='fs-5 mb-4'>If you are into Web-Dev then you may have come across this word “WORDPRESS”. But what exactly is wordpress?!</p><p class='fs-5 mb-4'>What if I tell you that you can create a website in just 5 minutes😨. Sounds bonkers right ?! But this is true……. with some practice and wordpress you can achieve this goal.</p><p class='fs-5 mb-4'>So what is this magic tool wordpress? Lets make it simple it is basically a website designing tool. WordPress (WP, WordPress.org) is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database. Using wordpress anyone with basic knowledge of HTML, CSS and JavaScript can build a great website! It includes plugin architecture and template systems which is called as themes in wordpress.</p><h1 class='fw-bolder mb-4 mt-5'>Difference between wordpress.com and wordpress.org :</h1><h2 class='fw-bolder mb-4 mt-5'>wordpress.com :</h2><p class='fs-5 mb-4'>This is a profit-oriented website. It is a hosting service and it is paid. It is easier to use but you do not have that freedom and flexibility of a self - hosted website.</p><h2 class='fw-bolder mb-4 mt-5'>wordpress.org :</h2><p class='fs-5 mb-4'>This is a self – hosted wordpress, when someone talks about wordpress most of the time they are referring to wordpress.org. In this the website is completely yours. You can install the wordpress open sourced software directly on your own local host.</p><h1 class='fw-bolder mb-4 mt-5'>ADVANTAGES OF USING WORDPRESS :</h1> <ul class='fs-5 mb-4'> <li>Build websites in no time, Great for projects having short time notice.</li><li>Open sourced and easy to install</li><li>Build responsive websites. [Responsive – A website that can adjust itself with any device and screen ratio.] </li><li>Infinite number of themes to choose from according to your project requirement.</li><li>Inbuilt CSS tools and animations.</li><li>Inbuilt JavaScript functions.</li><li>You can add your personal features and requirements as and when required. </li></ul> <h2 class='fw-bolder mb-4 mt-5'>HOW TO INSTALL WORDPRESS IN YOUR SYSTEM :</h2> <h2 class='fw-bolder mb-4 mt-5'>STEP 1-Download and install XAMPP on your computer.</h2> <p class='fs-5 mb-4'>https://www.apachefriends.org/download.html</p><h2 class='fw-bolder mb-4 mt-5'>STEP 2-Start the modules and test your server You will have to run 2 modules - </h2> <ul class='fs-5 mb-4'> <ol>1.Apache</ol> <ol>2.MySQL</ol> </ul> <img class='img-fluid rounded' src='assets/images/Web-Dev/id13/id13.1.png' alt=''> <h2 class='fw-bolder mb-4 mt-5'>STEP 3-Add the WordPress files which you can download:</h2> <p class='fs-5 mb-4'> https://wordpress.org/download/ </p><h2 class='fw-bolder mb-4 mt-5'>STEP 4-Create a database for WordPress.</h2> <img class='img-fluid rounded' src='assets/images/Web-Dev/id13/id13.2.png' alt=''> <h2 class='fw-bolder mb-4 mt-5'>STEP 5-Install WordPress locally via the on-screen installer.</h2> <P class='fs-5 mb-4'>Database Name=Name of the database you created in PHPMyAdmin</P> <p class='fs-5 mb-4'> Username=“root”</P> <p class='fs-5 mb-4'> Password=#blank#</P> <h2 class='fw-bolder mb-4 mt-5'>Whole world uses wordpress, when will you? </h2> <img class='img-fluid rounded' src='assets/images/Web-Dev/id13/id13.3.png' alt=''> <h2 class='fw-bolder mb-4 mt-5'>Some company websites that uses wordpress:</h2> <ul class='fs-5 mb-4'> <li>Whitehouse.gov</li><li>Microsoft</li></ul> <h2 class='fw-bolder mb-4 mt-5'>Wordpress is a very strong and effective tool if used properly! </h2> ",
+            "tags": [
+                "Web-Dev"
+            ],
+            "date": "December 17, 2021",
+            "linkedin": "https://www.linkedin.com/in/murtaza-fatakdawala-a006651ab",
+            "github": "https://github.com/Murtaza11092"
         }
     ]
 }
-    
+
