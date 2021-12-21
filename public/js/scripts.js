@@ -1,4 +1,4 @@
-
+let usp;
 async function relatedPostRender(id, category) {
   let postStore = [];
   let relatedPostObj = await fetch("/js/json/content.json");
@@ -29,9 +29,9 @@ async function relatedPostRender(id, category) {
 
 let blogs = document.getElementById('blogs');
 async function blogListRender() {
+  blogs.innerHTML = "";
   let category = "";
   let page = window.location.pathname;
-
   switch (page) {
     case "/General/":
       category = "General";
@@ -51,8 +51,7 @@ async function blogListRender() {
   }
   let postObj = await fetch("/js/json/content.json");
   let postJson = await postObj.json();
-  blogs.innerHTML = "";
-  for (let i = postJson.items.length-1; i >= 0; i--) {
+  for (let i = postJson.items.length - 1; i >= 0; i--) {
     if (postJson.items[i].category == category) {
       blogs.innerHTML += `<li class="blogPost"}">
       <div class="blogTextContent">
@@ -76,7 +75,7 @@ async function homeRender() {
   let postObj = await fetch("/js/json/content.json");
   let postJson = await postObj.json();
   let blogs = document.getElementById('blogs');
-  for (let i = postJson.items.length-1; i >= 0; i--) {
+  for (let i = postJson.items.length - 1; i >= 0; i--) {
     blogs.innerHTML += `<li class="blogPost"}">
         <div class="blogTextContent">
           <div class="titleTags" >
@@ -155,32 +154,23 @@ blogListRender();
 function blogTypeToggle() {
   let mainBlog = document.getElementById('mainBlog');
   let allblogs = document.getElementById('allblogs');
-  allblogs.style.display = "block";
   let comments = document.getElementById('comments');
+  allblogs.style.display = "block";
   comments.style.display = "none";
   mainBlog.style.display = "none";
   let path = window.location.pathname;
-  switch (path) {
-    case "/":
-      window.location.href = "/";
-      break;
-    case "/General/":
-      window.location.href = "/General/";
-      break;
-    case "/Open-Source/":
-      window.location.href = "/Open-Source/";
-      break;
-    case "/AI-ML/":
-      window.location.href = "/AI-ML/";
-      break;
-    case "/Web-Dev/":
-      window.location.href = "/Web-Dev/";
-      break;
-    case "/Android-Dev/":
-      window.location.href = "/Android-Dev/";
-      break;
-    default:
-      break;
+  document.title = "Hack Club SIGCE - BLOGS";
+  blogs.innerHTML = ""
+  $(document).ready(function () {
+    if (window.location.href.indexOf('?') > -1) {
+      history.pushState('', document.title, window.location.pathname);
+    }
+  });
+  mainBlog.innerHTML = "";
+  if (path == "" || path == "/") {
+    homeRender();
+  } else {
+    blogListRender();
   }
 }
 
