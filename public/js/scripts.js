@@ -104,6 +104,7 @@ async function mainBlog(id) {
   for (let i = 0; i < json.items.length; i++) {
     if (json.items[i].id == id) {
       changeUrl(json.items[i].id);
+      document.title = json.items[i].shortTitle;
       category = json.items[i].category;
       mainBlog.innerHTML = `
             <div class="container mt-5" style=" z-index: 1; position: inherit;">
