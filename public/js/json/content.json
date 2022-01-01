@@ -263,7 +263,28 @@
             "date": "December 21, 2021",
             "linkedin": "https://www.linkedin.com/in/mrudul-kolambe/",
             "github": "https://github.com/mrudulkolambe"
+        },
+        {
+            "id": 16,
+            "author": "Roshani Surwade",
+            "firstName": "Roshani",
+            "LastName": "Surwade",
+            "shortTitle": "WHY  JAVA IS IMPORTANT ?",
+            "category": "General",
+            "img": "/assets/images/General/id16/id16.jpg",
+            "shortDesc": "WHY  JAVA IS IMPORTANT ?",
+            "blogContent": "<p class='fs-5 mb-4'>Java is a very popular programming language that was developed by using the object oriented programming. It is the successor of programming language that are C and C++ which back then were very popular.</p><h2 class='fw-bolder mb-4 mt-5'>1. What is JAVA Programming Language?</h2><p class='fs-5 mb-4'>Java is an object-oriented programming language that produces software multiple platforms . When a programmers write a java applications, The compiled code runs on most operating systems, including windows Mac OS. Syntax of Java from the C and C++programming languages. The format of bytecode is platform-independent. A virtual machine, called the JAVA VIRTUAL MACHINE, is used to run the bytecode on each platform.</p><h2 class='fw-bolder mb-4 mt-5'>2. Implementation of Java</h2><p class='fs-5 mb-4'>The implementation is divided into two different distributions:</p><ul class='fs-5 mb-4'> <li>Java Runtime Environment (JRE) which provides the minimum requirements for executing a java application, it consist of Java Virtual Machine(JVM),core classes and supporting files.</li><li>Java Development Kit (JDK) which is intended for software developers and includes development tools such as the Java compiler, Javadoc, Jar, and a debugger.</li></ul><img class='img-fluid rounded ' src='assets/images/General/id16/id16.1.png' alt=''><h2 class='fw-bolder mb-4 mt-5'>3. Features of Java</h2><p class='fs-5 mb-4'>Java has multiple features. Some of these are unique to Java Object Oriented – In Java, everything is represented as objects. An object is kind of wrapper that encapsulated data and its associated behavior.Java provides support for all major object-oriented principles as seen in other object-oriented languages.</p><ul class='fs-5 mb-4'> <li>Platform Independent – A program compiled on one machine can be executed on any machine in the world without any change.It is very different to C or C++ applications where programs compiled into binaries specific to OS.</li><li>Compiled -Java compiler compiles the java source code into the bytecode. Java Virtual Machine(JVM) executes this bytecode which is executable on many operating system. </li><li>Secure – Java applications run in Java runtime environment (JRE) with almost no interaction with system OS. It makes Java more secure than other languages.</li><li>Multithreaded – Java supports writing applications which can do multiple tasks in separate threads. For example, a Java application serve a user login form while running background processes also.</li><li>OS Architecture-neutral – Java compiler generates an OS architecture-neutral class files or bytecode.</li></ul><h2 class='fw-bolder mb-4 mt-5'>4. How to write code in java</h2><img class='img-fluid rounded' src='assets/images/General/id16/id16.2.jpeg' alt=''><ul class='fs-5 mb-4'> <li> First of all we have to make a Java source files must be named after the public class they contain, putting the suffix .java, for example, HelloWorldApplication.java. </li><li> It must first be compiled into bytecode, using a Java compiler, producing a file named HelloWorldApplication.class . Only then can it be executed.</li><li>The Java source file may only contain one public class, but it can contain multiple classes with other than public access and any number of public inner classes.</li><li> When the source file contains multiple classes, make one class ‘public’ and name the source file with that public class name.</li></ul>",
+            "tags": [
+                "Java"
+            ],
+            "date": "January 1, 2022",
+            "linkedin": "https://www.linkedin.com/in/roshani-surwade-164732205",
+            "github": "https://github.com/roshanisurwade617"
         }
     ]
 }
+
+
+    
+
 
