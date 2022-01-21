@@ -331,9 +331,28 @@
             "date": "January 20, 2022",
             "linkedin": "https://www.linkedin.com/in/dikshita-padte-665794209/",
             "github": "https://github.com/dikshita-1905"
+        },
+        {
+            "id": 20,
+            "author": "Shivam Narkhede",
+            "firstName": "Shivam",
+            "LastName": "Narkhede",
+            "shortTitle": " Data Analysis",
+            "category": "General",
+            "img": "/assets/images/General/id20/id20.png",
+            "shortDesc": "Data Analysis ",
+            "blogContent": "<p class='fs-5 mb-4'>Data is a short hand of 'information,' and whether you collect, update, or analyze data this process has always been part of the functions of the First Head program. Enrolling children in the program requires a lot of pieces of information. The provision of health and dental services includes information from testing and any follow-up services provided</p><p class='fs-5 mb-4'>In addition, the performance of the Head Start program has greatly improved over the past decade. As new requirements are added, and new systems are introduced, systems are increasingly expected to use data in a more efficient way.</p><h2 class='fw-bolder mb-4 mt-5'>The two basic definitions of Data-</h2><ul class='fs-5 mb-4'> <li> Accurate information (such as ratings or statistics) used as the basis for consultation, discussion, or calculation.</li><li>Information that comes out of a sensory machine or organ that combines both useful and insignificant or unnecessary information and should be considered in order to be meaningful.</li></ul><h2 class='fw-bolder mb-4 mt-5'>Quality data -</h2><p class='fs-5 mb-4'> Data represented in oral or narrative format is quality data. These types of data are collected by focus groups, interviews, open-ended questionnaires, and other less formal situations. An easy way to look at quality data is to think about quality data in the form of words. Later, we will explore how the text below can be used as a data source</p><h2 class='fw-bolder mb-4 mt-5'>Bulk data-</h2><p class='fs-5 mb-4'>Quantitative data is numerical data, where numerical values can be large or small. Numerical values may correspond to a specific category or label.</p><h2 class='fw-bolder mb-4 mt-5'>Data Strategies-</h2><p class='fs-5 mb-4'>There are a variety of strategies for analyzing prices and quality. Various strategies provide data analysts with a systematic approach to data processing; they enable the analyst to create “logical sequences” for different processes. Below are some examples of strategies.</p><ul class='fs-5 mb-4'> <li>Visualizing data- Creating a visual “image” or visual representation of data.</li><li>Test Analysis- Looking at data to identify or interpret</li><li>Trend Analysis- Looking at data collected from time to time.</li><li>Estimation- Using real data values to predict future value.</li></ul><p class='fs-5 mb-4'> Data analysis can refer to different procedures and methods. However, before systems can effectively implement these processes and methods, we believe it is important to see data analysis as part of the process. From this perspective, we introduce a data analysis process that includes the following key components:</p><ul class='fs-5 mb-4'> <li>Purpose</li><li>Questions </li><li>Data Collection</li><li>Data Processes and Methods</li><li>Interpreted / Identified Recovery</li><li>Writing, Reporting, and Distribution</li><li>Evaluation</li></ul><h2 class='fw-bolder mb-4 mt-5'>Data Analysis as a Line Process-</h2><p class='fs-5 mb-4'>The straightforward way to analyze data is to use the parts in sequence, from beginning to end. The potential benefit of this approach is that it is planned and organized, as the process steps are planned in a systematic way.</p><h2 class='fw-bolder mb-4 mt-5'>Data Analysis as Cycle-</h2><p class='fs-5 mb-4'> The revolving data analysis approach provides additional flexibility in the decision-making process and includes many different and varied decisions that need to be made. In this way, different parts of the process can be processed at different times and in different sequences.</p><h1 class='fw-bolder mb-4 mt-5'>Data Analysis Process Management-</h1><h2 class='fw-bolder mb-4 mt-5'>Group Development-</h2><p class='fs-5 mb-4'> Similar to public inspections, in which the Chief Director of Migration and Seasons is responsible for ensuring that data analysis is fully completed and implemented.</p><h2 class='fw-bolder mb-4 mt-5'>Editing-</h2><p class='fs-5 mb-4'>Editing is a very important part of the data analysis process. It is important that you develop a participatory process for data analysis. The plan should outline your data analysis process and include the purpose, queries, data collection methods, resources needed, a designated person, and a timetable for completing all required tasks.</p><h2 class='fw-bolder mb-4 mt-5'>Data Management-</h2><p class='fs-5 mb-4'> Data comes from many locations and various formats. It is important to take a systematic approach towards Data.</p><h2 class='fw-bolder mb-4 mt-5'>Writing-</h2><p class='fs-5 mb-4'> Write down your key findings and descriptions that fit your purpose</p><h2 class='fw-bolder mb-4 mt-5'>Evaluation-</h2><p class='fs-5 mb-4'> Processing Data Analysis As a process, the final step in Managing the Data Analysis Process is testing.</p>",
+            "tags": [
+                "Data Analysis "
+            ],
+            "date": "January 21, 2022",
+            "linkedin": "https://www.linkedin.com/in/shivam-narkhede-281702221/",
+            "github": "https://github.com/shivam11-01"
         }
     ]
 }
+    
+
     
 
     
