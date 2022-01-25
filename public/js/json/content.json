@@ -399,9 +399,32 @@
             "date": "January 24, 2022",
             "linkedin": "https://www.linkedin.com/in/prachi-more-2769b522a/",
             "github": "https://github.com/PrachiDMore"
+        },
+        {
+            "id": 24,
+            "author": "Tanaya Shete",
+            "firstName": "Tanaya",
+            "LastName": "Shete",
+            "shortTitle": "JAVA- A PROGRAMMING LANGUAGE",
+            "category": "General",
+            "img": "/assets/images/General/id24/id24.jpeg",
+            "shortDesc": "JAVA- A PROGRAMMING LANGUAGE",
+            "blogContent": "",
+            "tags": [
+                "Java"
+            ],
+            "date": "January 25, 2022",
+            "linkedin": "https://www.linkedin.com/in/tanaya-shete-633ba7218",
+            "github": "https://github.com/tanaya48"
         }
+        
     ]
 }
+        
+    
+
+    
+
     
 
     
