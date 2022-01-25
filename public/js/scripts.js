@@ -56,7 +56,7 @@ async function blogListRender() {
       blogs.innerHTML += `<li class="blogPost"}">
       <div class="blogTextContent">
         <div class="titleTags" >
-          <a class="blogTitle">${postJson.items[i].shortTitle}<span>${postJson.items[i].tags[0]}</span></a>
+          <a name="${postJson.items[i].id}" onclick="mainBlog(this.name)" class="blogTitle">${postJson.items[i].shortTitle}<span>${postJson.items[i].tags[0]}</span></a>
         </div>
         <div class="blogDesc">${postJson.items[i].shortDesc}</div>
       </div>
@@ -79,12 +79,12 @@ async function homeRender() {
     blogs.innerHTML += `<li class="blogPost"}">
         <div class="blogTextContent">
           <div class="titleTags" >
-            <a class="blogTitle">${postJson.items[i].shortTitle}<span>${postJson.items[i].tags[0]}</span></a>
+            <a name="${postJson.items[i].id}" onclick="mainBlog(this.name)" class="blogTitle">${postJson.items[i].shortTitle}<span>${postJson.items[i].tags[0]}</span></a>
           </div>
           <div class="blogDesc">${postJson.items[i].shortDesc}</div>
         </div>
         <div class="readMoreBtn">
-          <button id="${postJson.items[i].id}" name="${postJson.items[i].category}" onclick="mainBlog(this.id, this.name)" class="readMore">Read</button>
+          <button id="${postJson.items[i].id}" name="${postJson.items[i].category}" onclick="mainBlog(this.id)" class="readMore">Read</button>
         </div>
       </li>`
   }
@@ -138,7 +138,9 @@ async function mainBlog(id) {
           </article>
         </div>
         <div class="col-lg-4">
-          <div class="text-center fw-bolder mb-3">Related Posts <i onclick="blogTypeToggle()" class="closeWindow fas fa-times"></i></div>
+          <div class="text-center fw-bolder mb-3">Related Posts
+          <i onclick="blogTypeToggle()" class="closeWindow fas fa-times"></i>   
+          </div>
           <div id="relatedPostContainer"></div>
         </div>
       </div>

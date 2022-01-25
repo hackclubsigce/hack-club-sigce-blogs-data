@@ -8,4 +8,6 @@ const firebaseConfig = {
 };
 
 const app = firebase.initializeApp(firebaseConfig);
-// const analytics = firebase.getAnalytics(app);
+const analytics = firebase.analytics();
+// // console.log(analytics);
+// console.log(app);
