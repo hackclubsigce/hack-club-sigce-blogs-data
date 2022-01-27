@@ -416,27 +416,23 @@
             "date": "January 25, 2022",
             "linkedin": "https://www.linkedin.com/in/tanaya-shete-633ba7218",
             "github": "https://github.com/tanaya48"
+        },
+        {
+            "id": 25,
+            "author": "Aishwarya Thorat",
+            "firstName": "Aishwarya",
+            "LastName": "Thorat",
+            "shortTitle": "A Brief Introduction to the Basics of Bulma",
+            "category": "General",
+            "img": "/assets/images/Web-Dev/id25/id25.png",
+            "shortDesc": "A Brief Introduction to the Basics of Bulma",
+            "blogContent": "<p class='fs-5 mb-4'>Creating a quality web interface isn't easy. You need a cohesive design, an understandable user experience, well-structured HTML, memorable class names and well organized style sheets. Now all of this is going to take time and can be very tedious and there are a lot of ways that it can go wrong and a poor user interface can lead to poor user adoption. Now there's a solution to all of this, a CSS framework, a library of pre-built UI components with web standards and best practices built right in.</p><p class='fs-5 mb-4'>But if you are looking to save time and energy not all CSS frameworks are going to be created equally, some are going to be less well documented and take a longer time to learn and be tougher to use. Fortunately there's Bulma, the CSS framework that's simple to learn and simple to use.</p><h3 class='fw-bolder mb-4 mt-5'>What is Bulma?</h3><p class='fs-5 mb-4'>If you're familiar with something like Bootstrap or Foundation then Bulma is along the same lines as those in the sense that it allows you to easily create pages using a bunch of different components and it gives you a way of organizing those components on the page.</p><h3 class='fw-bolder mb-4 mt-5'>Getting started with Bulma</h3><p class='fs-5 mb-4'>Visit <a href='https://bulma.io/'>https://bulma.io/</a> go to the documentation here and go to the getting started part. There are several ways to get started with Bulma, You can either:</p><ol class='fs-5 mb-4'> <li>Use npm to install the Bulma package</li><li>Use the CDN to link to the Bulma stylesheet</li><li>Use the GitHub repository </li></ol><img class='fluid rounded' src='/assets/images/Web-Dev/id25/id25.1.jpg' alt=''><p class='fs-5 mb-4'>Given below is an example of a Bulma starter template (here CDN to link to the Bulma stylesheet is used).</p><img class='fluid rounded' src='assets/images/Web-Dev/id25/id25.2.jpg' alt=''><h3 class='fw-bolder mb-4 mt-5'>Why should you use Bulma?</h3><p class='fs-5 mb-4'>Let's take a look at some of the key reasons why working with Bulma is so great.</p><ul class='fs-5 mb-4'> <li><h4 class='fw-bolder mb-4 mt-5'>Beautiful UI components:</h4></li><p class='fs-5 mb-4'>Bulma comes packaged with beautiful UI components these include the nav bar, tabs, panel box and media object, drop down card, form, progress bar and pagination and many more. These components work together to give your web interface a cohesive design.</p><li><h4 class='fw-bolder mb-4 mt-5'>Modular</h4></li><p class='fs-5 mb-4'>Because bolna is built with sass it is very modular just import the features that you need and you're ready to go.</p><li><h4 class='fw-bolder mb-4 mt-5'>Readable class names</h4></li><p class='fs-5 mb-4'>Bulma’s class names are highly readable if you want a button just add the button class name in the tag.</p><img class='fluid rounded' src='assets/images/Web-Dev/id25/id25.3.jpg' alt=''> <li><h4 class='fw-bolder mb-4 mt-5'>Helpful Modifiers</h4></li><p class='fs-5 mb-4'>Bulma's syntax for adding modifiers is simple: want your button to be large just add the is-large modifier class.</p><img class='fluid rounded' src='assets/images/Web-Dev/id25/id25.4.jpg' alt=''> <p class='fs-5 mb-4'>Want the button to be large and the primary color of your design just add is-primary modifier class.</p><img class='fluid rounded' src='assets/images/Web-Dev/id25/id25.5.jpg' alt=''> <li><h4 class='fw-bolder mb-4 mt-5'>Built on Flexbox</h4></li><p class='fs-5 mb-4'>Since Bulma’s built on flexbox it makes tasks like creating grids and vertical alignment a breeze. Let's take a look at columns: with a parent div with the columns class name, we will put four divs within it with a column class name; they'll automatically be vertically aligned.</p><img class='fluid rounded' src='assets/images/Web-Dev/id25/id25.6.jpg' alt=''> <p class='fs-5 mb-4'>Right now we're looking at a mobile view but if we were to switch to a wider viewport each column will align horizontally into its respective quarter of the column’s container.</p><img class='fluid rounded' src='assets/images/Web-Dev/id25/id25.7.jpg' alt=''> <li><h4 class='fw-bolder mb-4 mt-5'>Fully Responsive </h4></li><p class='fs-5 mb-4'>Bulma is built to be fully responsive. If we remove the fourth column from the above code, the remaining columns will scale to fit into thirds of their parent container.</p><img class='fluid rounded' src='assets/images/Web-Dev/id25/id25.8.jpg' alt=''></ul><p class='fs-5 mb-4'>There are plenty more reasons to use Bulma and if you want to try it out you can head over to <a href='https://bulma.io/'>https://bulma.io/</a> to check out their documentation.</p>",
+            "tags": [
+                "Bulma"
+            ],
+            "date": "January 27, 2022",
+            "linkedin": "https://www.linkedin.com/in/aishwarya-thorat-7328601a6/",
+            "github": "https://github.com/sakuraixiao"
         }
-        
     ]
 }
-        
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
-
-    
-
-
