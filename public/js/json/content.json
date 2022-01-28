@@ -433,6 +433,28 @@
             "date": "January 27, 2022",
             "linkedin": "https://www.linkedin.com/in/aishwarya-thorat-7328601a6/",
             "github": "https://github.com/sakuraixiao"
+        },
+        {
+            "id": 26,
+            "author": "Roshani Surwade",
+            "firstName": "Roshani",
+            "LastName": "Surwade",
+            "shortTitle": "Automation in software Testing",
+            "category": "General",
+            "img": "/assets/images/General/id26/id26.jpg",
+            "shortDesc": "Automation in software Testing",
+            "blogContent": "<p class='fs-5 mb-4'>In this testing software continues to influence an effect and automate to more areas of our lives ,so testing software are more valuable and important as we welcome the new applications and devices into a homes and businesses as well to take the command of important task</p><h2 class='fw-bolder mb-4 mt-5'>What is software testing? and why it is important?</h2><p class='fs-5 mb-4'>On April 26th 1994 an aircraft which named is Airbus a300 was completing the routine and approach when just before landing on the airport it crashed in that aircraft there was 264 people and to date the accident the deadliest accident history of the China airline.</p><p class='fs-5 mb-4'>From the above incident the software is very important because it is happened due to software box . Software is used here , It was not tested before implementing every system. All the system are connected to the real world and one or the other way so software testing is very important.</p><h3 class='fw-bolder mb-4 mt-5'>Software Testing-</h3><p class='fs-5 mb-4'>Software testing is basically , It is the process of executing the software or an application. Software testing means checking the developed software for any mistake and problems in the initial design of software.</p><h2 class='fw-bolder mb-4 mt-5'>Types of software Testing</h2><ul class='fs-5 mb-4'> <li>Manual Testing – </li></ul><p class='fs-5 mb-4'>It is pretty self-explanatory light testing of a web application is done manually by human action that’s what we call manual testing means that someone actually goes on device to evaluate numerous components including design functionality and the performance of software so they clicking through the multiple elements.</p><ul class='fs-5 mb-4'> <li>Automated Testing – </li></ul><p class='fs-5 mb-4'>It is used in the picture of automation testing, Automation focuses on the replacing manual human activity with system or devices that enhance efficiency of software Test automation or usually referred as automation testing. It uses the different type of tools scripts and software to perform the cases by repeating the predefined actions Let’s see the example , Amazon is testing delivery drones that pick up the warehouse orders sorted by robots.</p><h2 class='fw-bolder mb-4 mt-5'>Which test cases to automate?</h2><p class='fs-5 mb-4'>What cases should be automated first where automation testing have to be applied because we can’t an automation everywhere, so first of all as</p><ul class='fs-5 mb-4'> <li>Repetitive task are primary candidates for automation. </li><li>capturing and sharing results obviously a critical part of successful test strategy. </li><li>Test required multiple data sets rather than manually typing in information into forms to automate this process to read an information from data source.</li></ul><h2 class='fw-bolder mb-4 mt-5'>How to choose an automation tool?</h2><ul class='fs-5 mb-4'> <li>Check if the tool is compatible with platform and different kind of technology.</li><li>Flexibility of the testers also plays a important role that is what kind of skills your tester have, for example can your QA department write automated test script and keyword.</li><li>You need create an automated test that are reusable , maintainable resistant to changes in the application .</li><li>Open source testing tool made up of ruby libraries to automate web application testing</li></ul><h2 class='fw-bolder mb-4 mt-5'>Benefits of automation testing </h2><ul class='fs-5 mb-4'> <li>It saves a lot of money </li><li>It improves the test accuracy</li><li>It increases the test coverage as then you can perform tests repetitively on different kind of devices</li><li>Complex tests and boring task are made easy and comfortable.</li><li>It increases the speed of executing tests.</li></ul>",
+            "tags": [
+                "Software Testing"
+            ],
+            "date": "January 28, 2022",
+            "linkedin": "https://www.linkedin.com/in/roshani-surwade-164732205",
+            "github": "https://github.com/roshanisurwade617"
         }
     ]
 }
+
+
+
+    
+
