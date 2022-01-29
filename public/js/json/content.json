@@ -450,11 +450,24 @@
             "date": "January 28, 2022",
             "linkedin": "https://www.linkedin.com/in/roshani-surwade-164732205",
             "github": "https://github.com/roshanisurwade617"
+        },
+        {
+            "id": 27,
+            "author": "Sayali Chorghe",
+            "firstName": "Sayali",
+            "LastName": "Chorghe",
+            "shortTitle": "DIVE INTO ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+            "category": "AI-ML",
+            "img": "/assets/images/AI-ML/id27/id27.jpg",
+            "shortDesc": "DIVE INTO ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+            "blogContent": "<p class='fs-5 mb-4'>Hi friends! Can you recall someone named Doraemon from your childhood memories? Have you ever thought what it would be like to have a Doraemon with you? How does it work? Now, all of your questions can be answered by a single term called AIML</p><p class='fs-5 mb-4'>Have you ever heard about <b>AIML(Artificial Intelligence and Machine Learning)</b>? Well basically AIML is all about taking machines and trying to make them act in a human way. We code them in a way where machines like Doraemon learn new things by making different decisions. AI helps computers to analyze their problems and solve them.</p><p class='fs-5 mb-4'>GenZ like us loves to play computer games and Gameplay is one of the many zones where AI is used. We get emails everyday, some of them are useful while some are spam. Here our spam detection sorts the spam mails in a different folder. Also we get recommendations of videos in YouTube or Netflix based on our preference or the stuff we have previously watched. These are all the provisions we enjoy in our day-to- day life thanks to Artificial Intelligence and Machine Learning.</p><p class='fs-5 mb-4'>There is a term called Reinforcement Learning in AIML. Here machines are sanctioned to learn from mistakes or experiences they make while problem solving so that they can find the best possible method to solve the particular problem. We make them to <b>EXPLOIT</b> and <b>EXPLORE</b>, to gain many new things by taking risks sometimes.</p><p class='fs-5 mb-4'>AIML is a key which unlocks the door of solutions to many global or local problems. In near future, machines can be a helping hand to humans. In conclusion AIML is a tech field to help humans with problem solving or decision making.</p><p class='fs-5 mb-4'>Let me know, how interesting you found AIML to be? And can a machine flip pancake for you, what do you think???</p>",
+            "tags": [
+                "AI-ML"
+            ],
+            "date": "January 29, 2022",
+            "linkedin": "https://www.linkedin.com/in/sayali-chorghe-4b73991bb",
+            "github": "http://github.com/sayaliee"
         }
     ]
 }
-
-
-
-    
 
