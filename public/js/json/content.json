@@ -467,7 +467,28 @@
             "date": "January 29, 2022",
             "linkedin": "https://www.linkedin.com/in/sayali-chorghe-4b73991bb",
             "github": "http://github.com/sayaliee"
+        },
+        {
+            "id": 28,
+            "author": "Shubham Dumbre",
+            "firstName": "Shubham",
+            "LastName": "Dumbre",
+            "shortTitle": "Blockchain",
+            "category": "General",
+            "img": "/assets/images/General/id28/id28.jpg",
+            "shortDesc": "Blockchain",
+            "blogContent": "<p class='fs-5 mb-4'>Economics is a necessity, that plays a crucial role in everyone's life. What the internet did for information, digital currency is doing for money! Money is an ultimate catalyst for the worst and the best of human endeavour. It defines our moral status and also compromises our morals sometimes. </p><p class='fs-5 mb-4'>Each one of us is running for money, and it has already started going completely digital! Our world is transforming every single penny into digital binaries, better known as Cryptocurrencies. Cryptocurrency, using Blockchain technology, is revolutionizing transactions across boundaries by eliminating banking!</p><p class='fs-5 mb-4'>Blockchain is a technology that enables moving digital coins or assets from one individual to another. In short, Blockchain is a distributed, decentralized, open public ledger. Open ledger means chain of transactions, so Blockchain is open and public to its network! Everyone on the network can see, validate and transact, making it a safe driver.</p><p class='fs-5 mb-4'>A cryptocurrency is a collection of binary data which is designed to work as a medium of exchange. Cryptocurrency is digital and is typically not issued by a central authority. There are different types of cryptocurrencies available across the globe. Some popular cryptocurrencies are Bitcoin, Ethereum, Litecoin, Dash, Bytecoin, etc. Bitcoin is currently the king of cryptocurrencies.</p><p class='fs-5 mb-4'>Bitcoin is money that is digital. These are digital coins that one can send via internet. Satoshi Nakamoto in 2008 developed Bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation. As part of the implementation, Nakamoto also devised the first blockchain database. Till date, Satoshi Nakamoto is considered to be anonymous. </p><p class='fs-5 mb-4'>Bitcoin mining is the process of verifying Bitcoin transactions and recording them onto the public ledger. In Blockchain, the transactions are verified by Bitcoin users. Most important fact here is that “Bitcoin is not Blockchain!”</p><p class='fs-5 mb-4'>The concept of single universal ledger with multiple nodes including the banks, insurance, regulators, etc. is the heart of the Blockchain. There is no need of individual authentications from different participant nodes, thus reducing the friction and making the system time efficient. </p><p class='fs-5 mb-4'>Whenever a transaction or a set of transactions happen, it gets added to a block of transaction in a chain of already existing transactions, altogether forming a chain of blocks authenticated by everyone, known as the Blockchain. This Blockchain is protected by the most effective cryptography algorithms present today, so it is difficult to hack. Every block added is immutably linked to the previous block, so changing just one block is not valid as the whole chain needs to be changed by the hacker, which is practically not possible. So, Blockchain is supremely secure. As it is a chain, backtracking is possible.</p><p class='fs-5 mb-4'>Frauds can be eliminated or minimized by means of Blockchain. Banks, hotels, agriculture, etc. sectors are implementing Blockchain. A developer responsible for developing and optimizing blockchain protocols, crafting the architecture of blockchain systems, developing smart contracts and web apps using Blockchain technology are commonly called Blockchain developers. Many fortune 500 companies and top MNCs like IBM, Microsoft, Accenture, Capgemini, etc. are on the hunt for skilled blockchain developers.</p><p class='fs-5 mb-4'>Flexibility, transparency, reduced transaction cost, efficiency, auditability, traceability, security, worldwide adoption, distributed architecture, open public ledger, decentralization, security and faster transaction settlements are primary features of Blockchain. As everything as a flip side, even Blockchain has some disadvantages like high maintenance costs, data immutability, irreversibility, challenging scalability, high energy consumption, network dependencies, immaturity, self-maintenance and interoperability</p><p class='fs-5 mb-4'>Financial literacy is the possession of the set of skills and knowledge that allows an individual to make informed and effective decisions with all of their financial resources. Cryptocurrency is an internet-based medium of exchange which uses cryptographical functions to conduct financial transactions. Cryptocurrencies leverage Blockchain technology to gain decentralization, transparency, and immutability. Bitcoin is most popular cryptocurrency in today’s world and Blockchain is future.</p>",
+            "tags": [
+                "Blockchain"
+            ],
+            "date": "January 30, 2022",
+            "linkedin": "https://www.linkedin.com/in/ishubhamdumbre",
+            "github": "https://github.com/ishubhamdumbre"
         }
     ]
 }
+
+
+    
+
 
