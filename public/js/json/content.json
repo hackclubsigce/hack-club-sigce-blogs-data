@@ -484,9 +484,28 @@
             "date": "January 30, 2022",
             "linkedin": "https://www.linkedin.com/in/ishubhamdumbre",
             "github": "https://github.com/ishubhamdumbre"
+        },
+        {
+            "id": 29,
+            "author": "Mukulika Pahari",
+            "firstName": "Mukulika",
+            "LastName": "Pahari",
+            "shortTitle": "The Log4j debacle",
+            "category": "General",
+            "img": "/assets/images/General/id29/id29.jpg",
+            "shortDesc": "The Log4j debacle: An important wake-up call",
+            "blogContent": "<p class='fs-5 mb-4'>Recently, the entire world was thrown into a tizzy with the discovery of a major cybersecurity bug- Log4Shell. It affected millions of applications worldwide and most major softwares declared that they were susceptible to it.</p><h2 class='fw-bolder mb-4 mt-5'>What is log4j?</h2> <p class='fs-5 mb-4'>Log4j is an open-source logging service provided by Apache; used by almost every other software and program. It is a Java program that allows a software to log every activity in their server. These logs are often useful to discover bugs and monitor software.</p><h2 class='fw-bolder mb-4 mt-5'>The vulnerability</h2> <p class='fs-5 mb-4'>On 9 December 2021, the CVE-2021-44832 was reported with a vulnerability severity score of 10/10. This vulnerability basically allows remote unauthorized personnel to execute code on a server using Log4j versions 2.0-beta7 through 2.17.0. As you can imagine, it is a critical flaw and was termed as “Log4Shell”, reflecting its behavior.</p><p class='fs-5 mb-4'>The culprit is a feature of Log4j which allows the logging function to fetch data through variables in the string before writing it down as the log record. The function doesn’t check if the data that is fetched is from an authorized source and allows malicious entities to inject code in this way. This feature had been slated for deprecation and was only there due to the need for backward compatibility.</p><h2 class='fw-bolder mb-4 mt-5'>First discovery</h2> <p class='fs-5 mb-4'>One the of earliest remote code execution (RCE) attacks due to this flaw were witnessed in the Java version of Minecraft, a Microsoft-owned game. It is reported that attackers had started exploiting this vulnerability almost a week before it was assigned a CVE and alarm bells were sounded worldwide.</p><h2 class='fw-bolder mb-4 mt-5'>Corrective measures</h2> <p class='fs-5 mb-4'>A security patch was immediately released with Log4j 2.17.0 and national security centers urged companies to quickly update to the latest release; some even threatening legal repercussions otherwise. A public notice for mitigation was also issued within hours to reduce the fallout.</p><p class='fs-5 mb-4'>In the next few days, a number of other vulnerabilities were found of lower severities and patched in the subsequent Log4j 2.17.x releases. Users were advised to update all softwares as soon as they released their own security patches; citing the ubiquitous nature of Log4j. The latest safe versions are Log4j 2.3.2 (for Java 6), 2.12.4 (for Java 7), and 2.17.1 (for Java 8 and later).</p><h2 class='fw-bolder mb-4 mt-5'>The blame game</h2> <p class='fs-5 mb-4'>This critical incident threw light on the plight of open-source software. As the flaw was discovered, it was also found that the Log4j library was poorly maintained due to the lack of resources and was largely a hobby project. This brought to light the lack of support for open-source projects with large user bases. It also raised the moral issue of big tech companies using open-source software in their premium products without providing them with any support.</p><h2 class='fw-bolder mb-4 mt-5'>Present situation and future plans</h2> <p class='fs-5 mb-4'>The fallout from Log4shell continues almost a month after the incident as security firms report that there hasn’t been a significant reduction in attacks yet (as of January 2022). There are fears of dormant code attacks because of the highly publicized and quick fix of this vulnerability. Specialists fear that attackers did not have time to craft active execution attacks so they installed dormant code into the victim servers which will be used to create malicious attacks later on.</p><p class='fs-5 mb-4'>The US government has taken note of the critical nature of these cyber security threats and has convened a meeting with experts to figure out a way to prevent such incidents in the future. The government has expressed commitment to improving open-source security with the help of all major tech companies like Apple, Microsoft, and IBM.</p><p class='fs-5 mb-4'>Log4shell is a well-timed wake-up call to the industry as more and more critical functions are performed with software where flaws like these can prove fatal.</p>",
+            "tags": [
+                "Log4j"
+            ],
+            "date": "February 3, 2022",
+            "linkedin": "https://www.linkedin.com/in/mukulikapahari/",
+            "github": "https://github.com/Mukulikaa"
         }
     ]
 }
+    
+
 
 
     
